@@ -1,19 +1,19 @@
 
-var myNodelist = document.getElementsByTagName("LI");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
+var  listyange = document.getElementsByTagName("LI");
+var j;
+for (j = 0; j <  listyange.length; j++) {
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
-  myNodelist[i].appendChild(span);
+  listyange[j].appendChild(span);
 }
 
 // Click on a close button to hide the current list item
 var close = document.getElementsByClassName("close");
-var i;
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
+var k;
+for (k = 0; k < close.length; k++) {
+  close[k].onclick = function() {
     var div = this.parentElement;
     div.style.display = "none";
   }
@@ -36,7 +36,7 @@ function newElement() {
   if (inputValue === '') {
     alert("You must write something!");
   } else {
-    document.getElementById("myUL").appendChild(li);
+    document.getElementById("list").appendChild(li);
   }
   document.getElementById("myInput").value = "";
 
@@ -46,8 +46,8 @@ function newElement() {
   span.appendChild(txt);
   li.appendChild(span);
 
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
+  for (k = 0; k < close.length; k++) {
+    close[k].onclick = function() {
       var div = this.parentElement;
       div.style.display = "none";
     }

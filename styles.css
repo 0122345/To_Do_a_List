@@ -1,14 +1,19 @@
 
 body {
   margin: 0;
-  min-width: 250px;
+  /* min-width: 250px; */
 }
 
-/* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
 }
-
+.container{
+  width: 75%;
+  border:solid #555;
+  align-items: center;
+  justify-content: center;
+  
+}
 /* Remove margins and padding from the list */
 ul {
   margin: 0;
@@ -42,7 +47,7 @@ ul li:hover {
   background: #ddd;
 }
 
-/* When clicked on, add a background color and strike out text */
+ 
 ul li.checked {
   background: #888;
   color: #fff;
@@ -101,7 +106,7 @@ input {
 }
 
 /* Style the "Add" button */
-.addBtn {
+.add{
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
@@ -114,6 +119,6 @@ input {
   border-radius: 0;
 }
 
-.addBtn:hover {
+.add:hover {
   background-color: #bbb;
 }
