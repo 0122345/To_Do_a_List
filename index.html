@@ -9,19 +9,17 @@
     <script src="list.js"></script>  
 </head>
 <body>
-  <div class="container">
-  <div id="myDIV" class="header">
-    <h2>To do List</h2>
-    <input type="text" id="myInput" placeholder="Title...">
-    <span onclick="newElement()" class="add">Add</span>
-   
-  </div>
+ 
+    <div class="extra">
+   <span> <input id="date" type="date"><span style="color: aliceblue;font-family: Georgia, 'Times New Roman', Times, serif;">Total  Activities listed   =  <a id="pTotal"></a></span>
+    <input type="button" id="add" value="Add List" onclick="addList('ToDoListTable')" />  
+    <input type="button" id="del" value="Delete List" onclick="deleteList('ToDoListTable')" />
+    <input type="textbox" id="txt1" />   
+     <table id="ToDoListTable" width="265px" border="1">  
+        </table>  
+
+    </div>
   
-  <ul id="list">
-    <input type="date">
-  </ul>
-  
-  </div>
 
 </body>
 </html>
