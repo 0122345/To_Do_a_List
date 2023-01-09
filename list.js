@@ -4,6 +4,7 @@ var j;
 for (j = 0; j <  listyange.length; j++) {
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
+  var time = document.createDocumentFragment("date");
   span.className = "close";
   span.appendChild(txt);
   listyange[j].appendChild(span);
