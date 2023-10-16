@@ -2,24 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> To Do a List</title>
-    <link rel="stylesheet" href="styles.css"/>
-    <script src="list.js"></script>  
+    <title>To Do List</title>
+    <link rel="stylesheet" href="list.css">
 </head>
 <body>
- 
-    <div class="extra">
-   <span> <input id="date" type="date"><span style="color: aliceblue;font-family: Georgia, 'Times New Roman', Times, serif;">Total  Activities listed   =  <a id="pTotal"></a></span>
-    <input type="button" id="add" value="Add List" onclick="addList('ToDoListTable')" />  
-    <input type="button" id="del" value="Delete List" onclick="deleteList('ToDoListTable')" />
-    <input type="textbox" id="txt1" />   
-     <table id="ToDoListTable" width="265px" border="1">  
-        </table>  
+    <div class="ms-3 flex ng-black" id="container">
+        <div id="container1" class="container1">
+            <div id="img" class="img">
+               <div id="right">
+                <nav>
+                    hamburger
+                </nav>
+               </div>
 
+               <div id="left">
+                    progess
+               </div>
+            </div>
+             <h3>INBOX</h3>
+
+             <div id="content" class="content">
+                <span>img</span>
+                <span>title</span>
+                <span>description</span>
+                <span>time</span>
+             </div>
+             <hr>
+
+             <div id="content" class="content">
+                <span>img</span>
+                <span>title</span>
+                <span>description</span>
+                <span>time</span>
+             </div>
+             <hr>
+
+             <div id="content" class="content">
+                <span>img</span>
+                <span>title</span>
+                <span>description</span>
+                <span>time</span>
+             </div>
+             <hr>
+
+             <div id="content" class="content">
+                <span>img</span>
+                <span>title</span>
+                <span>description</span>
+                <span>time</span>
+             </div>
+             <hr>
+
+             <div id="content" class="content">
+                <span>img</span>
+                <span>title</span>
+                <span>description</span>
+                <span>time</span>
+             </div>
+             <hr>
+
+             <div id="content" class="content">
+                <span>img</span>
+                <span>title</span>
+                <span>description</span>
+                <span>time</span>
+             </div>
+             <hr>
+
+             <div id="content" class="content">
+                <span>img</span>
+                <span>title</span>
+                <span>description</span>
+                <span>time</span>
+             </div>
+             <hr>
+
+             <span>completed</span> 
+             <span id="circle"></span>
+              
+             
+             <button id="plus" class="w-24 h-48 rounded-full ">+</button>
+        </div>
     </div>
-  
 
+   <script src="script.js"></script> 
 </body>
 </html>
