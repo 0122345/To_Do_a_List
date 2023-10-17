@@ -74,6 +74,16 @@ button {
     position:  absolute;
     top: 0;
     left: 0;
+    
+    background-size: auto 250%;
+    background-repeat: no-repeat;
+    height:  116px;
+    width: 374px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    position: absolute;
+    transition: flex 0.7s ease-in;
 
 }
 
