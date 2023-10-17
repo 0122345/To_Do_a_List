@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Poppins';
+
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+#container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 97vh;
+
+    background-color: #AAA4E7;
+
+    position: relative;
+    margin: 5px;
+    padding: 30px;
+
+    border-radius: 12px;
+}
+
+button {
+
+    width: 32px;
+    height: 25px; 
+    float: right;
+
+    background-color: #69E5E7;
+
+    border-radius: 50%;
+    color: #fff;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #FDFDFF;
+    width: 374px;
+    height:  95vh; 
+
+    
+    position: relative; 
+    left: auto;
+    right: auto;
+    top: 0px;
+    
+     
+    padding: 20px; 
+}
+ span {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#img {
+    display: flex;
+    flex-direction: row;
+    justify-self:center;
+    align-self:center;
+    
+    position:  absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#right {
+  width: 60%;
+  height: 100%;
+
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 32px;
+
+  padding: 8px;
+}
+
+h3 {
+    position: relative;
+    padding: auto;
+
+    float: left;
+
+    font-size: medium;
+    font-family: 'Poppins',sans-serif;
+}
+
+#left {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    
+    background: rgba(51, 51, 51, 0.65);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+
+    filter: brightness(40%);
+    padding: 8px;
+}
+ 
+
+ #content > *{
+
+     height: 50%;
+     width: 100%;
+     
+     font-size: smaller;
+     font-style: italic;
+
+} 
+
+#icon {
+    display: inline-flex;
+
+    border: 1px #2323f1 solid;
+
+    width: 42px;
+    height: 41px;
+    border-radius: 50%;
+}
+hr {
+    width: 86%;
+}
+
+#title,#time,#description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+     
+}
+#time {
+     color: #ED1CFF;
+
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+}
+ 

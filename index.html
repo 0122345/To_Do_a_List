@@ -4,25 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
-    <link rel="stylesheet" href="list.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fonticonpicker/2.0.0/jquery.fonticonpicker.min.js"
+     integrity="sha512-7gldHT/jXnEeI0RgvQO8O6HugIi/yma4vwZEy/6htp8CBj1pseUsH0ubvkTOp9rD2MLQQGZ9qEFqaYWldzxlCQ==" crossorigin="anonymous" 
+     referrerpolicy="no-referrer"></script>
+     <link rel="stylesheet" href="public/list.css">
 </head>
 <body>
     <div class="ms-3 flex ng-black" id="container">
         <div id="container1" class="container1">
-            <div id="img" class="img">
+            <div id="img" class="img" style="background-image: url('img/wallpaperflare.com_wallpaper\(6\).jpg');
+              background-size: auto 250%;
+              background-repeat: no-repeat;
+              height:  116px;
+              width: 374px;
+              
+              color: #fff;
+              cursor: pointer;
+              flex: 0.5;
+              position: absolute;
+              transition: flex 0.7s ease-in;">
                <div id="right">
-                <nav>
-                    hamburger
+                <nav> 
+                  <a href="http://">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="42" height="26" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg>
+                  </a>
                 </nav>
+                <span id="txt" class="">your thing</span>
+                <span id="date" class="">Oct 17, 2023</span>
                </div>
 
-               <div id="left">
-                    progess
+               <div id="left" class="">
+                    <span>30 business</span>
                </div>
             </div>
              <h3>INBOX</h3>
 
              <div id="content" class="content">
+                <span id="icon">img</span>
+                <span id="title"><h4>title </h4></span>
+                <span id="description"><h5>description</h5></span>
+                <span id="time">time</span>
+             </div>
+             <hr>
+
+             <div id="content" class="content">
+                <span id="icon">img</span>
+                <span id="title"><h4>title </h4></span>
+                <span id="description"><h5>description</h5></span>
+                <span id="time">time</span>
+             </div>
+             <hr>
+
+             <!-- <div id="content" class="bg-slate-700 w-8 h-8 ">
+                <span>img</span>
+                <span>title</span>
+                <span>description</span>
+                <span>time</span>
+             </div>
+             <hr> -->
+
+             <!-- <div id="content" class="content">
                 <span>img</span>
                 <span>title</span>
                 <span>description</span>
@@ -52,31 +95,7 @@
                 <span>description</span>
                 <span>time</span>
              </div>
-             <hr>
-
-             <div id="content" class="content">
-                <span>img</span>
-                <span>title</span>
-                <span>description</span>
-                <span>time</span>
-             </div>
-             <hr>
-
-             <div id="content" class="content">
-                <span>img</span>
-                <span>title</span>
-                <span>description</span>
-                <span>time</span>
-             </div>
-             <hr>
-
-             <div id="content" class="content">
-                <span>img</span>
-                <span>title</span>
-                <span>description</span>
-                <span>time</span>
-             </div>
-             <hr>
+             <hr> -->
 
              <span>completed</span> 
              <span id="circle"></span>
