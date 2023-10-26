@@ -5,11 +5,12 @@ const days = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]
 
 function dating() {
     const dato = new Date();
+    const datii = dato.getDate();
      const day = dato.getDay();
      const months = dato.getMonth();
      const yr = dato.getFullYear();
 
-    date.innerHTML = `${month[months]} ${days[day]},${yr}`
+    date.innerHTML = `${month[months]} ${days[day]} ${datii} ,${yr}`
 }
 
 dating();
