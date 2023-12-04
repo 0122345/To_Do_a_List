@@ -24,8 +24,10 @@ body{
 
     background-color: #AAA4E7;
 
-    position: relative;
-    margin: 5px;
+    position: absolute;
+    left: auto;
+    right: auto;
+    margin-left: 23pc; 
     padding: 30px;
 
     border-radius: 12px;

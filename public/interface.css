@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Carrois+Gothic&family=Poppins:wght@400;600&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,7 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
-
+    
     overflow: hidden;
 }
 nav {
@@ -25,17 +27,12 @@ nav {
     width: 35px;
  
     position: relative;
-    margin-left: 40px;
+
     left: 270px;
-    top: 10px;
+    top: 25px;
     
 }
-input{
-    background-color: #44519E;
-    border: none;
-    color: #fff;
-}
-
+ 
 hr{
     width: 86%;
     margin: 20px;
@@ -45,6 +42,9 @@ hr{
 
 #container {
     background-color: #44519E;
+    display: grid;
+    justify-self: center; 
+    align-self: center;
     width: 374px;
     height:  95vh; 
 }
@@ -66,17 +66,30 @@ button {
 
     background-color: #69E5E7;
     color: #fff;
-    width:  18pc;
-    height: 30px;
+
+    border-radius: 8px;
+    width:  19pc;
+    height: 40px;
     cursor:pointer;
     margin: 35px;
+
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
 }
-
-
+ 
+.rotate::before {
+    transform: rotate(180deg);
+}
 .rotate{
     transition: transform 0.5s;
 }
 
+input:placeholder-shown
+ {
+    color: burlywood;
+ }
  .rotate.rotated {
     transform: rotate(180deg);
  }
@@ -84,3 +97,31 @@ button {
  span{
     color: #fff;
  }
+
+#input {
+    display: flex;
+    flex-direction:  column;
+    
+    padding: 28px;
+    
+} 
+
+input {
+    border: none;
+    width: 268px;
+    height: 45px;
+    
+    background-color: transparent;
+    color: black;
+    
+    font-family: 'Bebas neue', sans-serif;
+    font-size: 26px;
+    font: 500;
+
+    letter-spacing: 4px;
+    padding-left: 6px;
+}
+
+input:focus, input:active {
+    outline: none;
+}
