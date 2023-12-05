@@ -34,10 +34,14 @@ body{
 }
 
 button {
-
+    display: flex;
+    justify-self: last baseline;
+    justify-content: center;
+    align-self: last baseline;
+    align-items: center;
+    
     width: 62px;
     height: 55px; 
-    float: right;
 
     background-color: #69E5E7;
 
@@ -48,8 +52,10 @@ button {
 }
 
 #date {
-    font-size: large;
-    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
 }
 
 #container1 {
@@ -210,8 +216,34 @@ hr {
     flex-direction: row;
     justify-content: end;
     align-items: end;
+}
+ul {
+    display: none; 
+    width: 200px;
+    height: 18vh;
+    border:1px solid #AAA4E7;
+    background-color: #AAA4E7;
+    opacity: 0.89;
 
-     
-    
+    position: absolute;
+    left: 0;
+    top: -20px;
+    /* z-index: -1; */
+
+}
+ul:active {
+    display: block;
 }
  
+ul li a{
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+    color: #fff;
+
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    
+    text-align:start;
+}

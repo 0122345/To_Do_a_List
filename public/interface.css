@@ -47,6 +47,11 @@ hr{
     align-self: center;
     width: 374px;
     height:  95vh; 
+
+    position: relative;
+    left: 20px;
+    right: 50px;
+    margin-left: 26pc;
 }
 
 #circle {
@@ -125,3 +130,4 @@ input {
 input:focus, input:active {
     outline: none;
 }
+
