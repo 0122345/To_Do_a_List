@@ -83,6 +83,9 @@ button {
     font-size: 13px;
     font-weight: bolder;
 }
+button:active{
+    transform: scale(0.89);
+}
  
 .rotate::before {
     transform: rotate(180deg);
@@ -131,3 +134,29 @@ input:focus, input:active {
     outline: none;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 25vw;
+    height: max-content;
+
+    border: 1px solid rgb(226, 43, 217);
+    border-radius: 6px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+
+    float: right;
+    position: absolute;
+    top: 15px;
+    right: 10pc;
+    margin-right: 30px;
+
+    background-color: rgb(226, 43, 217);
+    opacity: 0.89;
+    color: #fff;
+
+}

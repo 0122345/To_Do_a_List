@@ -33,7 +33,7 @@ body{
     border-radius: 12px;
 }
 
-button {
+button{
     display: flex;
     justify-self: last baseline;
     justify-content: center;
