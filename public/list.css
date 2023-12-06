@@ -39,6 +39,8 @@ button{
     justify-content: center;
     align-self: last baseline;
     align-items: center;
+    position: absolute;
+    bottom: 10px;
     
     width: 62px;
     height: 55px; 
@@ -246,4 +248,14 @@ ul li {
     font-size: 17px;
     
     text-align:start;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h3{
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
 }
