@@ -5,6 +5,7 @@
 }
 
 body{
+    
     background-color: aliceblue;
     font-family: 'Poppins';
 
@@ -85,6 +86,7 @@ button{
 }
 
 #img {
+    background-image: url('https://images4.alphacoders.com/131/thumbbig-1310857.webp');
     display: flex;
     flex-direction: row;
     justify-self:center;
@@ -108,6 +110,9 @@ button{
 }
 
 #right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 60%;
   height: 100%;
 
@@ -137,7 +142,7 @@ h3 {
     align-items: center;
 
     position: relative;
-    width: 40%;
+    width: 48%;
     height: 100%;
     
      background: rgba(51, 51, 51, 0.65); 
@@ -162,17 +167,19 @@ h3 {
 
 }
 
- #content > *{
-     display: inline;
-     height: 50%;
-     width: 100%;
+ #content{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     height: auto;
+
+
      
-     font-size: smaller;
-     font-style: italic;
 
 } 
 
-#content #h4 {
+/* #content #h4 {
     display: flex;
     flex-direction: row;
 
@@ -180,11 +187,11 @@ h3 {
     text-align: center;
 
     position:  absolute;
-}
+} */
 
 
 
-#icon {
+/* #icon {
     display: inline-flex;
 
     border: 1px #2323f1 solid;
@@ -192,27 +199,27 @@ h3 {
     width: 42px;
     height: 41px;
     border-radius: 50%;
-}
+} */
 hr {
     width: 86%;
 }
 
-#title,#time,#description {
+/* #title,#time,#description {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     position: fixed;
      
-}
-#time {
+} */
+/* #time {
      color: #ED1CFF;
 
      font-size: 15px;
      font-style: normal;
      font-weight: 600;
      line-height: normal;
-}
+} */
 
 #search {
     display: flex;
@@ -287,23 +294,35 @@ h3{
 
 }
 
-section.container-cont{
-    /* margin:  20px; */
-    height: 14vh;
-    overflow-y: scroll;
-}
 
-section.container-cont::-webkit-scrollbar-track
+.container-cont{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: inherit;
+    box-sizing: content-box;
+    border: none;
+    width: 370px;
+    height: 26vh;
+    background-color: #141617;
+    color: #fff;
+    overflow-y: scroll;
+   backface-visibility: hidden;
+    left: 33.2pc;
+    top: 340px;
+    position: fixed;
+  }
+
+#container-cont::-webkit-scrollbar-track
 {
 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 background-color:  #141617;
 }
-section.container-cont::-webkit-scrollbar
+#container-cont::-webkit-scrollbar
 {
 width: 6px;
-background-color:  #141617;
+background-color: #69E5E7;
 } 
-section.container-cont::-webkit-scrollbar-thumb
+#container-cont::-webkit-scrollbar-thumb
 {
 background-color: purple;
 }
