@@ -134,6 +134,11 @@ input:focus, input:active {
     outline: none;
 }
 
+#inputt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 section{
     display: flex;
     flex-direction: column;
@@ -163,4 +168,14 @@ section{
 .changing-background-color{
      
     text-align: center;
+}
+
+.microphone {
+    display: inline;
+    align-items:first baseline;
+    height: 66px;
+    width: 45px;
+
+    position: absolute;
+
 }

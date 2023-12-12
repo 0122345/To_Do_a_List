@@ -94,9 +94,10 @@ button{
     top: 0;
     left: 0;
     
-    background-size: auto 250%;
+    background-size: cover;
+    /* background-size: auto 100%; */
     background-repeat: no-repeat;
-    height:  116px;
+    height:  200px;
     width: 374px;
     color: #fff;
     
@@ -162,7 +163,7 @@ h3 {
 }
 
  #content > *{
-
+     display: inline;
      height: 50%;
      width: 100%;
      
@@ -252,10 +253,57 @@ ul li {
 
 form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-between;
+
+    position: absolute;
+    left: 0;
+    top: 200px;
+    height: 15vh;
+    width: 374px;
+     
+    background-color: antiquewhite;
 }
 h3{
     font-family: 'Poppins',sans-serif;
     font-size: 17px;
+}
+
+#footer {
+    width: 374px;
+    height: 18vh;
+    background-color: #e2e2e2;
+
+    position: fixed;
+    bottom: 2.6pc;
+    left: 33.2pc;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #fff;
+    border-radius: 12px 12px 0 0;
+
+}
+
+section.container-cont{
+    /* margin:  20px; */
+    height: 14vh;
+    overflow-y: scroll;
+}
+
+section.container-cont::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+background-color:  #141617;
+}
+section.container-cont::-webkit-scrollbar
+{
+width: 6px;
+background-color:  #141617;
+} 
+section.container-cont::-webkit-scrollbar-thumb
+{
+background-color: purple;
 }
