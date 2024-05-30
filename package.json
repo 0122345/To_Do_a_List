@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "list-css": "tailwindcss list src/list.css -o public/list.css"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.3"
-  }
-}
